@@ -6,11 +6,11 @@
 body {
     background-color: black;
     height: 100vh;
+    font-family: 'Lato', sans-serif;
 }
 
 header {
     height: 30px;
-    background-color: aqua;
 }
 
 .speaker-view {
@@ -47,21 +47,33 @@ section {
 
 footer {
     height: 90px;
-    background-color: bisque;
     border: 1px black;
     display: flex;
+    align-items: center;
+    color: #fff;
 }
 
-.container-footer{
+.footer-left{
  width: 20%;
+ margin-left: 5px;
+ font-size: 10px;
 }
 
-.icons{
+.footer-center{
  width: 80%;
  text-align: center;
+ font-size: 10px;
 }
 
-.end{
+i{
+    margin: 5px;
+}
+
+.footer-right{
 width: 20%;
-text-align: right;
+text-align: center;
+color: red;
+background-color: gray;
+padding-top: 37px;
+    padding-bottom: 34px;
 }

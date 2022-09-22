@@ -13,6 +13,19 @@ header {
     background-color: aqua;
 }
 
+.speaker-view {
+    text-align: right;
+}
+
+.button-header {
+    color: #fff;
+    background-color: gray;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-right: 5px;
+}
+
 main {
     height: calc(100% - 120px);
     background-color: blueviolet;
@@ -24,18 +37,31 @@ main {
     justify-content: center;
 }
 
-footer {
-    height: 90px;
-    background-color: bisque;
-}
-
 section {
     background-color: brown;
     width: calc(100% / 7 - 20px);
-    height: 70px;
-    
+    height: 70px;   
     border: solid 1px;
-    margin: 10px 1px;
-    
-    
+    margin: 10px 1px;   
+}
+
+footer {
+    height: 90px;
+    background-color: bisque;
+    border: 1px black;
+    display: flex;
+}
+
+.container-footer{
+ width: 20%;
+}
+
+.icons{
+ width: 80%;
+ text-align: center;
+}
+
+.end{
+width: 20%;
+text-align: right;
 }

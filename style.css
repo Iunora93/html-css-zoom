@@ -42,7 +42,7 @@ section {
     width: calc(100% / 7 - 20px);
     height: 70px;   
     border: solid 1px;
-    margin: 10px 1px;   
+    margin: 25px 1px;   
 }
 
 footer {
@@ -75,5 +75,14 @@ text-align: center;
 color: red;
 background-color: gray;
 padding-top: 37px;
-    padding-bottom: 34px;
+padding-bottom: 34px;
+}
+
+.icona-descr {
+
+}
+
+img {
+    width: 100%;
+    height: auto;
 }
